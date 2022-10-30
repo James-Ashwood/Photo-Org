@@ -38,7 +38,7 @@ namespace Photo_Organiser_Pro
 
             // Constants to do with this instance of the running of the program
             string Version = "1.0.3";       // Version
-            string CurrentDateTime = DateTime.Now.ToString();       // Gets the current date time and typecasts it to a string
+            string CurrentDateTime = DateTime.Now.ToString("yyyy-MM-dd-h-mm-ss");       // Gets the current date time and typecasts it to a string
             List<string> LogInfo = new List<string>();      // Stores the information to log
             List<string> AllowedEndings = new List<string>() {"raf", "jpeg", "jpg", "mov", "mp4"};        // A list that stores the allowed file endings
             List<string> DeleteEndings = new List<string>() {"aae"};        // A list that stores the file endings where we should delete the file
