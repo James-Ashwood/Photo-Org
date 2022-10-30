@@ -1,0 +1,10 @@
+{
+    "Main": [
+        ["/mnt/Upload/James", "/mnt/TargetFolder/James", "/mnt/Upload/James/ReviewFolder", "shiney9y@gmail.com"],
+        ["/mnt/Upload/Bethany", "/mnt/TargetFolder/Bethany", "/mnt/Upload/Bethany/ReviewFolder", "MissHoldinMyOwn@gmail.com"],
+        ["/mnt/Upload/Justin", "/mnt/TargetFolder/Parents", "/mnt/Upload/Justin/ReviewFolder", "Justin@TheAshwoods.com"],
+        ["/mnt/Upload/Emily", "/mnt/TargetFolder/Parents", "/mnt/Upload/Emily/ReviewFolder", "Emily@TheAshwoods.com"]
+    ],
+
+    "Comment": "This file is in JSON format. The above shows an array containing each of the holding pairs. The first value shows where the photos currently are, and the second value shows where they will be copied to. The third value is where the files that can't be processed and should be looked at by a human go. The 4th string is where the email of that person goes. Any sub folders inside the first path will be considered. Above shows an example of how it may work."
+}

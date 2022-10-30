@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  photo-organiser-pro:
+    image: photo-organiser-pro-image
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: ["dotnet", "run"]
+    ports:
+      - 5678:5678

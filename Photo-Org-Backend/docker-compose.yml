@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  photo-org-dev:
+    image: photo-org-dev-img
+    container_name: photo-org-dev
+    volumes:
+         - C:\Users\James\Documents\POPScriptTest\Holding Area\James:/mnt/Upload/James
+         - C:\Users\James\Documents\POPScriptTest\Holding Area\Bethany:/mnt/Upload/Bethany
+         - C:\Users\James\Documents\POPScriptTest\Holding Area\Emily:/mnt/Upload/Emily
+         - C:\Users\James\Documents\POPScriptTest\Holding Area\Justin:/mnt/Upload/Justin
+         - C:\Users\James\Documents\POPScriptTest\Bethany:/mnt/TargetFolder/Bethany
+         - C:\Users\James\Documents\POPScriptTest\James:/mnt/TargetFolder/James
+         - C:\Users\James\Documents\POPScriptTest\Parents:/mnt/TargetFolder/Parents
+    restart: unless-stopped
